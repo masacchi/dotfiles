@@ -1,3 +1,9 @@
 # Starship
 eval "$(starship init zsh)"
 
+# Sheldon(zsh plugin manager)
+eval "$(sheldon source)"
+
+# Alias
+alias ls="ls --color=auto"
+alias ll="ls -alhF"
